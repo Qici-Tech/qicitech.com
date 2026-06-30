@@ -5,209 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Qici Cue 是一台可自由定义的个人 AI 硬件，集屏幕、麦克风、摄像头、双旋钮、无线连接和开放接口于一体。"
+      content="Qici Tech 聚焦智能硬件、AI 交互、空间智能与智能机器人研发，提供从产品定义到机器人方案落地的综合能力。"
     />
-    <title>Qici Cue | 启点</title>
+    <title>Qici Tech | 智能硬件与智能机器人</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="Qici Tech 首页">
+        <img src="./assets/logo-transparent.png" alt="Qici Tech" />
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="./index.html" aria-current="page">首页</a>
+        <a href="./cue.html">智能硬件</a>
+        <a href="./robotics.html">智能机器人</a>
+        <a href="#capabilities">能力</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
     <main>
-      <section class="hero" id="top">
-        <header class="topbar">
-          <a class="brand" href="#top">
-            <img src="./assets/logo-transparent.png" alt="Qici Tech" />
-          </a>
-          <nav class="nav">
-            <a href="#story">故事</a>
-            <a href="#hardware">硬件</a>
-            <a href="#extensions">扩展</a>
-            <a href="#robotics">机器人</a>
-            <a href="#scenes">场景</a>
-            <a href="#contact">联系</a>
-          </nav>
-        </header>
-
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Qici Tech presents</p>
-            <h1 class="product-title">Qici Cue</h1>
-            <p class="product-name-cn">启点</p>
-            <p class="lede">
-              一个可以被你重新定义的 AI 入口。它不是又一块屏幕，也不是又一个开发板。Qici Cue 把感知、控制、连接和表达放进一个小型硬件里，让你的想法可以被看见、被听见、被记录，也可以被编程。
-            </p>
-            <div class="actions">
-              <a class="button primary" href="#story">了解这个想法</a>
-              <a class="button secondary" href="#extensions">看看它能变成什么</a>
-            </div>
+      <section class="hero home-hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Qici Tech</p>
+          <h1>让 AI 从屏幕走向硬件和真实空间。</h1>
+          <p class="lede">
+            我们不是只做一款设备，而是在构建两条并行主线：可自由定义的智能硬件，以及能感知、定位、移动和执行任务的智能机器人。
+          </p>
+          <div class="actions">
+            <a class="button primary" href="./cue.html">进入智能硬件</a>
+            <a class="button secondary" href="./robotics.html">进入机器人业务</a>
           </div>
+        </div>
 
-          <figure class="hero-product">
-            <img src="./assets/qici-cue-product.png" alt="Qici Cue 产品示意图" />
+        <div class="home-showcase" aria-label="Qici Tech 产品与机器人能力">
+          <figure class="showcase-main">
+            <img src="./assets/qici-cue-product.png" alt="Qici Cue 智能硬件产品图" />
+            <figcaption>智能硬件</figcaption>
+          </figure>
+          <figure class="showcase-secondary">
+            <img src="./assets/robotics-spatial-intelligence.png" alt="智能机器人与空间智能方案图" />
+            <figcaption>智能机器人</figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="section intro" id="story">
-        <div class="section-copy">
-          <p class="eyebrow">Origin</p>
-          <h2>它从一个很朴素的问题开始：我到底能做什么样的智能硬件？</h2>
-        </div>
-        <div class="story-text">
+      <section class="section business" id="business">
+        <div class="section-heading">
+          <p class="eyebrow">Business</p>
+          <h2>两个同等重要的方向。</h2>
           <p>
-            一开始，答案并不清楚。智能硬件的方向太多，传感器、机器人、语音助手、玩具、开发板，每一个都像是一个入口，但也都像已经被别人定义过。
-          </p>
-          <p>
-            于是我们换了一个问题：如果不从品类出发，只从真实需求出发，会长出什么？答案逐渐收敛成一个形态：一块屏幕，一个麦克风，一枚摄像头，两个带按压的旋钮，蓝牙、Wi-Fi、充分的外设接口，以及可以被自由定义的软件空间。
-          </p>
-          <p>
-            这就是 Qici Cue。它是一个起点：接上键盘，它可以是 vibe coding 的桌面控制台；夹在衣服上，它可以记录生活；装到底盘上，它可以移动、探索，甚至变成一个有表情、有反馈、有记忆感的 AI 陪伴玩具。
+            启点是我们对个人 AI 硬件的探索；机器人与空间智能，是我们把感知、定位和移动能力落到真实场景里的另一条主线。
           </p>
         </div>
-      </section>
 
-      <section class="section split" id="hardware">
-        <figure class="product-detail">
-          <img src="./assets/qici-cue-exploded.png" alt="Qici Cue 爆炸结构图" />
-        </figure>
-        <div class="section-copy">
-          <p class="eyebrow">Hardware</p>
-          <h2>不是堆料，是把输入、输出和扩展留给你。</h2>
-          <div class="feature-list">
-            <article>
-              <span>01</span>
-              <h3>屏幕</h3>
-              <p>让 AI 不只停留在语音里，也能显示状态、代码、提醒、表情和工具界面。</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>摄像头与麦克风</h3>
-              <p>让设备拥有看见和听见的能力，能记录生活，也能理解当下环境。</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>双旋钮与按键</h3>
-              <p>比触摸屏更直接的控制方式，适合调节、确认、切换模式和创意交互。</p>
-            </article>
-            <article>
-              <span>04</span>
-              <h3>无线连接与开放接口</h3>
-              <p>蓝牙、Wi-Fi 和预留外设接口，让它可以连接手机、电脑、传感器和更多硬件。</p>
-            </article>
-          </div>
+        <div class="business-grid">
+          <a class="business-card" href="./cue.html">
+            <img src="./assets/qici-cue-keyboard-dock.png" alt="Qici Cue 搭配键盘外设" />
+            <div>
+              <span>智能硬件</span>
+              <h3>Qici Cue / 启点</h3>
+              <p>
+                一块屏幕、麦克风、摄像头、双旋钮、无线连接和开放接口，组合成一个可被重新定义的个人 AI 入口。
+              </p>
+            </div>
+          </a>
+
+          <a class="business-card" href="./robotics.html">
+            <img src="./assets/robotics-spatial-intelligence.png" alt="移动机器人空间智能方案" />
+            <div>
+              <span>智能机器人</span>
+              <h3>空间智能与机器人方案</h3>
+              <p>
+                面向移动机器人、服务机器人和定制平台，提供 SLAM、视觉定位、传感器融合、底盘与整机方案能力。
+              </p>
+            </div>
+          </a>
         </div>
       </section>
 
-      <section class="section extensions" id="extensions">
-        <div class="section-copy">
-          <p class="eyebrow">Extensions</p>
-          <h2>外设决定它的形态，你决定它的用途。</h2>
+      <section class="section capabilities" id="capabilities">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>从想法到样机，再到可落地方案。</h2>
         </div>
-        <div class="extension-grid">
-          <article class="extension-card large">
-            <img src="./assets/qici-cue-keyboard-dock.png" alt="Qici Cue 搭配键盘底座" />
-            <div>
-              <h3>键盘底座</h3>
-              <p>放在桌面，它是一台可编程的 AI 控制台。屏幕给反馈，旋钮做调节，键盘承接输入，适合 coding、提示词实验和工具流控制。</p>
-            </div>
-          </article>
-          <article class="extension-card">
-            <img src="./assets/qici-cue-wearable-clip.png" alt="Qici Cue 衣物夹持外设" />
-            <div>
-              <h3>衣物夹持</h3>
-              <p>夹在衣服或背带上，它成为随身视角的记录器。不是为了监控生活，而是帮你保存转瞬即逝的线索。</p>
-            </div>
-          </article>
-          <article class="extension-card">
-            <img src="./assets/qici-cue-robot-car.png" alt="Qici Cue 小车底盘外设" />
-            <div>
-              <h3>小车底盘</h3>
-              <p>接入移动底盘，它可以巡航、避障、探索空间，成为一个能被编程的桌面机器人平台。</p>
-            </div>
-          </article>
-          <article class="extension-card large">
-            <img src="./assets/qici-cue-companion-base.png" alt="Qici Cue 四足陪伴底盘" />
-            <div>
-              <h3>陪伴底盘</h3>
-              <p>装到小狗样子的机械底盘上，它不再只是一个设备，而是可以表达、移动、回应你的 AI 玩具原型。</p>
-            </div>
-          </article>
-        </div>
-      </section>
 
-      <section class="section scenes" id="scenes">
-        <div class="section-copy">
-          <p class="eyebrow">Scenes</p>
-          <h2>同一个硬件，三种完全不同的使用方式。</h2>
-        </div>
-        <div class="scene-grid">
+        <div class="capability-grid">
           <article>
-            <h3>Vibe Coding 控制台</h3>
-            <p>把它放在桌面，旋钮切换任务、屏幕显示状态、麦克风捕捉想法，让编程不再只发生在键盘里。</p>
+            <span>01</span>
+            <h3>产品定义</h3>
+            <p>从真实需求出发，拆解输入、输出、交互、场景和成本约束，确定产品该成为什么。</p>
           </article>
           <article>
-            <h3>生活记录器</h3>
-            <p>像一个小型随身记忆节点，记录画面、声音和时间线，帮你保存日常里容易被忽略的片段。</p>
+            <span>02</span>
+            <h3>智能硬件研发</h3>
+            <p>围绕屏幕、麦克风、摄像头、旋钮、无线通信和外设接口，完成可运行硬件原型。</p>
           </article>
           <article>
-            <h3>AI 陪伴玩具</h3>
-            <p>它可以有表情、有反应、有性格。不是固定功能的玩具，而是可以被持续训练和改造的陪伴硬件。</p>
+            <span>03</span>
+            <h3>AI 交互</h3>
+            <p>把语音、视觉、触控、旋钮和屏幕反馈组合成更自然的 AI 使用方式。</p>
           </article>
-        </div>
-      </section>
-
-      <section class="section robotics" id="robotics">
-        <div class="section-copy">
-          <p class="eyebrow">Robotics</p>
-          <h2>另一条主线，是让机器理解自己身处的空间。</h2>
-        </div>
-        <div class="robotics-layout">
-          <div class="robotics-lead">
-            <p>
-              Qici Tech 的另一大业务，是智能机器人的研发制作与方案供应。我们关注的不是单一硬件零件，而是机器人在真实空间里如何定位、建图、感知、决策和移动。
-            </p>
-            <p>
-              从雷达 SLAM、视觉定位，到移动底盘、传感器融合和整机方案，我们希望把空间智能做成可以落地的机器人能力。
-            </p>
-          </div>
-          <div class="robotics-grid">
-            <article>
-              <span>01</span>
-              <h3>雷达 SLAM</h3>
-              <p>面向室内外移动机器人，构建稳定地图与定位能力，支撑导航、巡检、搬运等场景。</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>视觉定位</h3>
-              <p>结合摄像头、特征识别和多传感器信息，让机器人在复杂环境中理解位置与姿态。</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>智能机器人研发</h3>
-              <p>从原型验证到结构、电控、软件和交互，推进机器人从想法到可运行样机。</p>
-            </article>
-            <article>
-              <span>04</span>
-              <h3>方案供应</h3>
-              <p>为教育、科研、巡检、服务和定制场景提供模块化机器人方案与技术支持。</p>
-            </article>
-          </div>
+          <article>
+            <span>04</span>
+            <h3>空间智能</h3>
+            <p>围绕雷达 SLAM、视觉定位和传感器融合，让设备理解自己身处的空间。</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>机器人集成</h3>
+            <p>结合移动底盘、结构、电控、传感器和控制算法，推进机器人从原型到样机。</p>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>方案供应</h3>
+            <p>面向教育、科研、巡检、陪伴和定制场景，提供模块化机器人与智能硬件方案。</p>
+          </article>
         </div>
       </section>
 
       <section class="section statement">
         <div>
           <p class="eyebrow">Position</p>
-          <h2>Qici Cue 是个人 AI 的入口，空间智能是机器人走向现实的入口。</h2>
+          <h2>我们做的是入口，不是封闭的单一功能。</h2>
         </div>
         <p>
-          我们相信，下一代智能硬件不应该只给用户一个封闭功能，而应该给用户一个可以探索的入口。Qici Tech 要做的，是把 AI 从屏幕里带到桌面、身体、移动底盘和真实空间。
+          智能硬件让 AI 有身体，机器人让 AI 进入空间。Qici Tech 要做的，是把感知、交互、移动和创造能力组合成可以被使用、被改造、被部署的产品。
         </p>
       </section>
 
       <section class="section contact" id="contact">
-        <div class="section-copy">
+        <div class="section-heading">
           <p class="eyebrow">Contact</p>
-          <h2>如果你也想把 AI 和机器人变成可以落地的东西，欢迎一起聊。</h2>
+          <h2>如果你正在做智能硬件或机器人项目，欢迎一起聊。</h2>
         </div>
         <div class="contact-row">
           <a class="button primary" href="mailto:qicitech@163.com">qicitech@163.com</a>
@@ -217,8 +147,8 @@
     </main>
 
     <footer class="footer">
-      <span>Qici Cue</span>
-      <span>启点</span>
+      <span>Qici Tech</span>
+      <span>智能硬件 · 智能机器人</span>
     </footer>
   </body>
 </html>
