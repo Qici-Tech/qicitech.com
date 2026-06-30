@@ -257,7 +257,8 @@ h3 {
 }
 
 .feature-list article,
-.scene-grid article {
+.scene-grid article,
+.robotics-grid article {
   background: rgba(255, 255, 255, 0.76);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -274,13 +275,15 @@ h3 {
 
 .feature-list p,
 .scene-grid p,
+.robotics-grid p,
 .statement p,
 .contact-row {
   color: var(--muted);
 }
 
 .feature-list h3,
-.scene-grid h3 {
+.scene-grid h3,
+.robotics-grid h3 {
   margin-bottom: 8px;
 }
 
@@ -335,6 +338,38 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.robotics {
+  border-top: 1px solid var(--line);
+}
+
+.robotics-layout {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.robotics-lead {
+  display: grid;
+  gap: 16px;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.robotics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.robotics-grid span {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--blue);
+  font-weight: 800;
 }
 
 .statement {
@@ -440,6 +475,8 @@ h3 {
 
   .feature-list,
   .extension-grid,
+  .robotics-layout,
+  .robotics-grid,
   .scene-grid {
     grid-template-columns: 1fr;
   }
