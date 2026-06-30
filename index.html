@@ -3,96 +3,143 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Qici Tech 官方网站" />
-    <title>Qici Tech | 启启科技</title>
+    <meta
+      name="description"
+      content="Qici Cue 是一台可自由定义的个人 AI 硬件，集屏幕、麦克风、摄像头、双旋钮、无线连接和开放接口于一体。"
+    />
+    <title>Qici Cue | 启点</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main>
       <section class="hero" id="top">
         <header class="topbar">
-          <a class="brand" href="#top">Qici Tech</a>
+          <a class="brand" href="#top">
+            <img src="./assets/logo-transparent.png" alt="Qici Tech" />
+          </a>
           <nav class="nav">
-            <a href="#services">能力</a>
-            <a href="#process">交付</a>
+            <a href="#story">故事</a>
+            <a href="#hardware">硬件</a>
+            <a href="#scenes">场景</a>
             <a href="#contact">联系</a>
           </nav>
         </header>
 
-        <div class="hero-content">
-          <img class="hero-logo" src="./assets/logo-transparent.png" alt="Qici Tech logo" />
-          <p class="eyebrow">科技公司官网</p>
-          <h1>把产品、工程和交付放在同一条线上。</h1>
-          <p class="lede">
-            Qici Tech 面向企业官网、业务系统、自动化流程和数据展示，先把能上线的东西做出来，再持续打磨。
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Qici Cue / 启点</p>
+            <h1>一个可以被你重新定义的 AI 入口。</h1>
+            <p class="lede">
+              它不是又一块屏幕，也不是又一个开发板。Qici Cue 把感知、控制、连接和表达放进一个小型硬件里，让你的想法可以被看见、被听见、被记录，也可以被编程。
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#story">了解这个想法</a>
+              <a class="button secondary" href="#hardware">查看硬件形态</a>
+            </div>
+          </div>
+
+          <figure class="hero-product">
+            <img src="./assets/qici-cue-product.png" alt="Qici Cue 产品示意图" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section intro" id="story">
+        <div class="section-copy">
+          <p class="eyebrow">Origin</p>
+          <h2>它从一个很朴素的问题开始：我到底能做什么样的智能硬件？</h2>
+        </div>
+        <div class="story-text">
+          <p>
+            一开始，答案并不清楚。智能硬件的方向太多，传感器、机器人、语音助手、玩具、开发板，每一个都像是一个入口，但也都像已经被别人定义过。
           </p>
-          <div class="actions">
-            <a class="button primary" href="#contact">开始合作</a>
-            <a class="button secondary" href="#services">看我们做什么</a>
+          <p>
+            于是我们换了一个问题：如果不从品类出发，只从真实需求出发，会长出什么？答案逐渐收敛成一个形态：一块屏幕，一个麦克风，一枚摄像头，两个带按压的旋钮，蓝牙、Wi-Fi、充分的外设接口，以及可以被自由定义的软件空间。
+          </p>
+          <p>
+            这就是 Qici Cue。它是一个起点：可以用来 vibe coding，可以记录生活，可以识别眼前的东西，也可以成为一个有表情、有反馈、有记忆感的 AI 陪伴玩具。
+          </p>
+        </div>
+      </section>
+
+      <section class="section split" id="hardware">
+        <figure class="product-detail">
+          <img src="./assets/qici-cue-exploded.png" alt="Qici Cue 爆炸结构图" />
+        </figure>
+        <div class="section-copy">
+          <p class="eyebrow">Hardware</p>
+          <h2>不是堆料，是把输入、输出和扩展留给你。</h2>
+          <div class="feature-list">
+            <article>
+              <span>01</span>
+              <h3>屏幕</h3>
+              <p>让 AI 不只停留在语音里，也能显示状态、代码、提醒、表情和工具界面。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>摄像头与麦克风</h3>
+              <p>让设备拥有看见和听见的能力，能记录生活，也能理解当下环境。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>双旋钮与按键</h3>
+              <p>比触摸屏更直接的控制方式，适合调节、确认、切换模式和创意交互。</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>无线连接与开放接口</h3>
+              <p>蓝牙、Wi-Fi 和预留外设接口，让它可以连接手机、电脑、传感器和更多硬件。</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="band" id="services">
-        <div class="section-head">
-          <p class="eyebrow">能力范围</p>
-          <h2>先交付，再优化。</h2>
+      <section class="section scenes" id="scenes">
+        <div class="section-copy">
+          <p class="eyebrow">Scenes</p>
+          <h2>同一个硬件，三种完全不同的使用方式。</h2>
         </div>
-        <div class="grid">
+        <div class="scene-grid">
           <article>
-            <h3>品牌官网</h3>
-            <p>适合科技公司、服务商和新产品发布，重点是清晰、可信、能转化。</p>
+            <h3>Vibe Coding 控制台</h3>
+            <p>把它放在桌面，旋钮切换任务、屏幕显示状态、麦克风捕捉想法，让编程不再只发生在键盘里。</p>
           </article>
           <article>
-            <h3>业务系统</h3>
-            <p>面向订单、客户、审批、数据看板等核心流程，优先解决效率问题。</p>
+            <h3>生活记录器</h3>
+            <p>像一个小型随身记忆节点，记录画面、声音和时间线，帮你保存日常里容易被忽略的片段。</p>
           </article>
           <article>
-            <h3>自动化集成</h3>
-            <p>把表单、邮件、IM、接口和内部工具串起来，减少重复人工操作。</p>
+            <h3>AI 陪伴玩具</h3>
+            <p>它可以有表情、有反应、有性格。不是固定功能的玩具，而是可以被持续训练和改造的陪伴硬件。</p>
           </article>
         </div>
       </section>
 
-      <section class="band alt" id="process">
-        <div class="section-head">
-          <p class="eyebrow">交付方式</p>
-          <h2>三步上线，边做边收敛。</h2>
+      <section class="section statement">
+        <div>
+          <p class="eyebrow">Position</p>
+          <h2>Qici Cue 不是最终答案，而是让更多答案发生的起点。</h2>
         </div>
-        <div class="steps">
-          <div>
-            <span>01</span>
-            <h3>定边界</h3>
-            <p>先确认目标、受众、内容和技术边界，避免一上来就做偏。</p>
-          </div>
-          <div>
-            <span>02</span>
-            <h3>做首版</h3>
-            <p>先把可访问、可维护、可部署的版本跑起来，再补细节。</p>
-          </div>
-          <div>
-            <span>03</span>
-            <h3>持续迭代</h3>
-            <p>根据访问和反馈调整内容、结构和功能，而不是一次性拍脑袋。</p>
-          </div>
-        </div>
+        <p>
+          我们相信，下一代个人智能硬件不应该只给用户一个封闭功能，而应该给用户一个可以探索的入口。Qici Cue 要做的，就是把这个入口放到桌面、口袋和生活现场。
+        </p>
       </section>
 
-      <section class="band contact" id="contact">
-        <div class="section-head">
-          <p class="eyebrow">联系</p>
-          <h2>如果你要先上线一个公司首页，这就是起点。</h2>
+      <section class="section contact" id="contact">
+        <div class="section-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>如果你也想把 AI 变成一个可以触摸的东西，欢迎一起聊。</h2>
         </div>
         <div class="contact-row">
           <a class="button primary" href="mailto:hello@qicitech.com">hello@qicitech.com</a>
-          <p>把邮箱、手机号、微信和真实业务内容换成你的信息即可。</p>
+          <span>Qici Tech / qicitech.com</span>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <span>Qici Tech</span>
-      <span>qicitech.com</span>
+      <span>Qici Cue</span>
+      <span>启点</span>
     </footer>
   </body>
 </html>
